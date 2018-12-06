@@ -43,7 +43,6 @@ function ajax (api, sendData = {}, isLoading = false) {
             } else {
               if (resData.statusCode === 401) {
                 // Link to login page
-                // window.location.href = 'http://login' + CONFIG.PD + '/#/login';
                 // createHashHistory().push("/login");
                 return;
               }
