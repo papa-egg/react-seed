@@ -74,7 +74,8 @@ export default Home;
 异步请求全局使用自定义ajax封装插件，方便针对项目进行自定义配置<br>
 `'@/assets/js/ajax'`比起相对路径索引，提倡使用`@`进行绝对src路径定位，方便后续移动和修改
 ##路由
-路由是单页面应用的核心，采用react-router4的路由配置方式，除此之外，针对主要模块进行按需加载（使用`react-loadable`）来优化整体加载效率
+路由是单页面应用的核心，采用react-router4的路由配置方式;<br>
+除此之外，针对主要模块进行按需加载（使用`react-loadable`）来优化整体加载效率
 ```js
 import React, { Component, lazy, Suspense } from 'react';
 import { Switch, Route } from 'react-router-dom';
