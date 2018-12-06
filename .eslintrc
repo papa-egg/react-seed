@@ -1,0 +1,40 @@
+{
+  "extends": "react-app",
+
+  // 相对宽松的eslint规则条件，规范最基本空格换行等基础上，可以适用自己的编码风格；
+  "rules": {
+    "no-console": 0,
+    // 不允许使用console打印信息
+    "no-multi-spaces": 1,
+    // 不允许多余间隔
+    "react/jsx-tag-spacing": 1,
+    // 总是在自动关闭的标签前加一个空格
+    "react/jsx-space-before-closing": 1,
+    // 总是在自动关闭的标签前加一个空格，正常情况下也不需要换行
+    "jsx-quotes": 1,
+    // 对于 JSX 属性值总是使用双引号
+    "react/jsx-closing-bracket-location": 0,
+    // 遵循JSX语法缩进/格式
+    "react/jsx-boolean-value": 1,
+    // 如果属性值为 true, 可以直接省略
+    "react/no-string-refs": 1,
+    // 总是在Refs里使用回调函数
+    "react/self-closing-comp": 0,
+    // 对于没有子元素的标签来说总是自己关闭标签
+    "react/jsx-no-bind": 1,
+    // 当在 render() 里使用事件处理方法时，提前在构造函数里把 this 绑定上去
+    "react/sort-comp": 1,
+    // 按照具体规范的React.createClass 的生命周期函数书写代码
+    "react/jsx-pascal-case": 1,
+    // React模块名使用帕斯卡命名，实例使用骆驼式命名
+    "no-script-url": 0,
+    // 禁止使用javascript:void(0)
+    "jsx-a11y/alt-text": 0,
+    // <img> 标签总是添加 alt 属性
+    "no-useless-constructor": 0,
+    // 没有必要提供一个空构造函数或一个简单地委托给它的父类的构造函数
+    "no-unused-vars": 0,
+    // 变量已声明但未使用
+    "jsx-boolean-value": 0
+  }
+}
