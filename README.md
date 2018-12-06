@@ -33,7 +33,7 @@ react-seed/
 * `router`最外围路由配置
 * `App.jsx`公共入口配置中心
 
-##代码风格
+## 代码风格
 基本模板如下：
 ```js
 import React, { Component } from 'react';
@@ -112,7 +112,7 @@ class RouterDemo extends Component {
 export default RouterDemo;
 ```
 更对react-router用法可以参考[react-router@4官方文档 ](https://reacttraining.com/react-router/web/example/basic)
-##组件结构
+## 组件结构
 ```
 pages/
     components/
@@ -135,7 +135,7 @@ pages/
 `redux`更详细demo请参考具体目录：
 * `src/pages/redux-demo`
 * `redux/`
-##css规范
+## css规范
 已采用less作为css预处理工具，完成样式设计之余也请做好类似组件模块的清晰划分
 less做预处理固然方便，然而不提倡进行过多的层级嵌套（最多不要超过三层），比如：
 ```
