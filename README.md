@@ -112,7 +112,7 @@ class RouterDemo extends Component {
 
 export default RouterDemo;
 ```
-更对react-router用法可以参考[react-router@4官方文档 ](https://reacttraining.com/react-router/web/example/basic)
+更多react-router用法可以参考[react-router@4官方文档 ](https://reacttraining.com/react-router/web/example/basic)
 ## 组件结构
 ```
 pages/
