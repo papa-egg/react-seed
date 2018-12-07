@@ -3,7 +3,7 @@
 ------
 ---- 植根于内心的修养, 以约束为前提的自由
 
-React + redux。 本项目主要提供一套基础、稳定的[React](https://react.docschina.org/docs/hello-world.html)项目架构和统一的代码风格；<br>
+React + Redux + Create-react-app。 本项目主要提供一套基础、稳定的[React](https://react.docschina.org/docs/hello-world.html)项目架构和统一的代码风格；<br>
 针对实际项目，提供一个完整清晰的React脉络，并在此基础上逐步完善；<br>
 整体基于[Create React App](https://github.com/facebookincubator/create-react-app)，更多方法请参考[React官方文档](https://react.docschina.org/docs/hello-world.html)。
 
