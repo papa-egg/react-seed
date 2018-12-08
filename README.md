@@ -170,7 +170,7 @@ less做预处理固然方便，然而不提倡进行过多的层级嵌套（最�
 在项目中，可以运行:
 ### `npm start`
 在开发模式下运行
-打开http://localhost:80在浏览器中查看它（域名端口可在`config/webpack.config.dev.js`）中进行自定义配置<br>
+打开`http://localhost:80`在浏览器中查看它（域名端口可在`config/webpack.config.dev.js`）中进行自定义配置<br>
 如果您进行编辑，页面将重新加载
 ### `npm run build`
 将用于生产的应用程序构建到“build”文件夹下<br>

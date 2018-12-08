@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ajax from '@/assets/js/ajax';
-import './Home.less'
+import './Home.less';
 
 class Home extends Component {
   constructor (props) {
